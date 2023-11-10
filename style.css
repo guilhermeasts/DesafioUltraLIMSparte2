@@ -1,0 +1,42 @@
+body{
+    background-color: #CCCCFF;
+}
+
+.box {
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: #888888 2px 2px;
+}
+
+.box form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+.box input{
+    width: 250px;
+    height: 30px;
+    margin-bottom: 5px;
+    
+}
+
+.registro-list {
+    list-style: none;
+    padding: 0;
+}
+
+.registro-list li {
+    border: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
